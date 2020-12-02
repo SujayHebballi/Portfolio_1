@@ -1,39 +1,98 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
-.headings{
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+/* variables*/
+
+
+:root{
+    
+}
+/* Navigation*/
+.nav-container{
+    background-color:#34D399;
+    border-bottom-left-radius: 1rem;
+    padding-right: 2rem;
+}
+
+.nav-header{
     font-family: 'Nanum Gothic', sans-serif;
-    padding-left: 2rem;
-    color: #34D399;
+    color: white;
+    padding: 1rem 1rem;
 }
 
-h1 {
-    font-family: 'Dancing Script', cursive;
-    color: #065F46;
-    margin: auto;
+.nav-list{
+    list-style: none;
+    text-align: right;
+    padding-bottom: 1rem;    
+}
+
+.nav-list-inline{
+    display: inline;
+    padding: 2rem;
+}
+.nav-list-link{
+    color: white;
+    text-decoration: none;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: large;
+}
+.link-active{
+    font-weight:bold;
+}
+
+/*hero-imag*/
+
+.hero-img{
     max-width: 350px;
+    display: block;
+    margin: auto;
 }
+/*Intro_about_me*/
 
-.subhead {
-    margin: auto;
-    max-width: 450px; 
-    padding-top: 2rem;
-    padding-bottom: 2rem;  
+.intro-head{
+    font-family: 'Yellowtail', cursive;
+    text-align: center;
+    color: #9CA3AF;
 }
-p {
-    margin: auto;
-    max-width: 450px;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+.intro-para{
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
 }
-ul {
-    margin: auto;
-    max-width: 500px;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+.intro-link{
+    text-decoration: none;
+    font-weight: bold;
+    color:#34D399;
 }
-div {
-    margin: auto;
-    max-width: 500px;
+.sub-intro{
+    font-family: 'Nanum Gothic', sans-serif;
+    color: #34D399;
+    padding-left: 31rem;
     padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
+}
+.sub-unordered-list{
+    list-style: none;
+    padding-left: 31rem;
+}
+.sub-unordered-list-item{
+    font-family: 'Nunito', sans-serif;
+}
+.sub_into-link{
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+    background-color:#A7F3D0;
+    padding:0.5rem 1rem ;
+    color: black;
+    margin-left:31rem ;
+    border-radius: 0.5rem;
+}
+.div-sub-pro{
+    padding-bottom:1rem;
+    padding-left: 31rem;
+    font-family: 'Nunito', sans-serif;
+}
+.div-sub{
+    padding-left: 31rem;
+    font-family: 'Nunito', sans-serif;
 }
