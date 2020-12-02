@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+.headings{
+    font-family: 'Nanum Gothic', sans-serif;
+    padding-left: 2rem;
+    color: #34D399;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    color: #065F46;
+    margin: auto;
+    max-width: 350px;
+}
+
+.subhead {
+    margin: auto;
+    max-width: 450px; 
+    padding-top: 2rem;
+    padding-bottom: 2rem;  
+}
+p {
+    margin: auto;
+    max-width: 450px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+ul {
+    margin: auto;
+    max-width: 500px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+div {
+    margin: auto;
+    max-width: 500px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
