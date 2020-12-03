@@ -126,3 +126,48 @@ list-style: none;
     text-decoration: none;
     color: white;
 }
+
+/* projects ordered list*/
+.project-ol{
+    padding-left: 31rem;
+    padding-top: 2rem;
+}
+.project-ol-item{
+    font-family: 'Nunito', sans-serif;
+    color: #34D399;
+    font-size: x-large;
+    font-weight: bolder;
+    padding: 2rem;
+}
+.pro-date{
+    padding: 1.5rem;
+    font-family: 'Nunito', sans-serif;
+    font-style: italic;
+}
+.pro-des{
+    padding: 2rem;
+    font-family: 'Nunito', sans-serif;
+}
+.pro-link{
+    padding:1rem;
+    text-decoration: none;
+    background-color:#A7F3D0;
+    border-radius: 0.5rem;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+    text-align: right;
+}
+.hero-about{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+.para-about{
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    padding-top: 2rem;
+}
+.about-link{
+    text-decoration: none;
+    color: #34D399;
+}
