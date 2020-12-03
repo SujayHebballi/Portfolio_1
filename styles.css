@@ -8,6 +8,7 @@
 :root{
     
 }
+
 /* Navigation*/
 .nav-container{
     background-color:#34D399;
@@ -95,4 +96,32 @@
 .div-sub{
     padding-left: 31rem;
     font-family: 'Nunito', sans-serif;
+}
+
+/* footer */
+footer{    
+background-color:#34D399;
+border-top-right-radius: 1rem;
+text-align: center;
+}
+
+.footer-head{
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+}
+.footer-ul{
+padding: 2rem;
+list-style: none;
+}
+.footer-ul-item{
+    font-family: 'Nunito', sans-serif;
+    display: inline;
+    padding: 2rem;
+    font-size: larger;
+}
+.footer-link{
+    text-decoration: none;
+    color: white;
 }
