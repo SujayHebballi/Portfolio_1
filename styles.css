@@ -39,7 +39,8 @@
     font-size: large;
 }
 .link-active{
-    font-weight:bold;
+    font-weight: 900;
+    color: black;
 }
 
 /*hero-imag*/
